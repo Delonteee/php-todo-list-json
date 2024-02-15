@@ -2,6 +2,22 @@
 
 <div id="app">
     PHP
+    <main>
+        <div class="container py-4">
+            <h1 class="text-center">
+                COSE DA FARE
+            </h1>
+            <div>
+                <input type="text" v-model="newTodo">
+                <button @click="addTodo()">Aggiungi</button>
+            </div>
+            <ul>
+                <li v-for="single_todo in todo_list" :class="single_todo.done == true ? 'done' : '' ">
+                    {{ single_todo.todo }}
+                </li>
+            </ul>
+        </div>
+    </main>
 </div>
 
 <!-- BOOTSTRAP JS -->

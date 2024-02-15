@@ -1,17 +1,26 @@
 [
     {
         "todo": "Fare la spesa",
+        "done": false
     },
     {
-        "todo": "Comprare skipass",
+        "todo": "Comprare skipass", 
+        "done": false
     },
     {
         "todo": "Dare da mangiare al gatto",
+        "done": true
     },
     {
         "todo": "Scrivere mail di lavoro",
+        "done": false
     },
     {
         "todo": "Prenotare cena per sabato sera",
+        "done": true
+    },
+    {   
+        "todo":"Questo \u00e8 un nuovo todo permanente",
+        "done":false
     }
 ]
